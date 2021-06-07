@@ -7,7 +7,8 @@ $(document).ready(function() {
     const animalInput= $("input#animal").val();
     const exclamationInput = $("input#exclamation").val();
     const verbInput = $("input#verb").val();
-    const nounInput = $("input#noun").val();
+    const array = [person1Input, person2Input, animalInput]
+
 
     $(".person1").text(person1Input);
     $(".person2").text(person2Input);
